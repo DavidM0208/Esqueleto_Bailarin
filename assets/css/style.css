@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Esqueleto_Off {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 550px;
+    height: 600px;
+    background-color: rgb(219, 119, 25);
+    border: 0.2rem solid rgb(255, 60, 0);
+    border-radius: 2vh;
+    margin-top: 1rem;
+    background-image: url(../img/Stop.png);
+    box-shadow: inset 0px 0px 30px 10px rgb(255, 60, 0);
+}
+
+.Esqueleto_Off.Dance     {
+    background-image: url(../img/LaBomba.gif);
+}
+
+.Esqueleto_On_Off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 2rem;
+    width: 150px;
+    border: 0.2rem solid rgb(252, 0, 0);
+    border-radius: 1vh;
+    height: 50px;
+    background-color: rgba(224, 58, 58, 0.699);
+    box-shadow: inset 0px 0px 20px 5px rgb(212, 8, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.Esqueleto_On_Off:hover {
+    background-color: rgb(252, 0, 0);
+}
